@@ -152,7 +152,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12vw;
   cursor: pointer;
 }
-
+@media (min-width: 800px) {
+  .mobile-nav-toggle {
+    font-size: 54px;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+  }
+}
 .mobile-nav-active {
   overflow: hidden;
 }
