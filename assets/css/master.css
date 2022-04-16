@@ -69,7 +69,21 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     left: -240px;
   }
-
+  #header .profile h1 {
+    font-size: 40px;
+    padding: 30px 0px 10px 0px;
+    font-weight: 600;
+  }
+  #header .profile .social-links a {
+    font-size: 24px;
+    line-height: 1;
+    padding: 12px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+  }
   #main {
     margin-left: 0;
   }
@@ -111,6 +125,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #149ddd;
 }
 
+@media (max-width: 1199px) {
+  .nav-menu a, .nav-menu a:focus {
+    font-size: 30px;
+  }
+}
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -118,13 +138,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
+  font-size: 48px;
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
   color: #fff;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
